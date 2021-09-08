@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration </title>
+    <style>
+    table,tr,td {
+                    background-color: white;
+                    tab-size: 10px;
+                    margin-top: 10px;
+                    padding: 10px;
+                   
+                }
+
+            td{
+                font-family: 'Times New Roman', Times, serif;
+                
+            } 
+        
+    </style>
+</head>
+<body style="background-color: rgba(95, 145, 160, 0.281);">
+   
+   <h1 style="text-align: center; background-color: rgb(114, 95, 160);
+    color: white; font-family: 'Times New Roman', Times, serif; font-size: 25px;
+    padding: 10px;margin: 20px; ">Registration Form</h1>
+
+    <form>
+        <table align="center">  <!--align : for table move to center-->
+        <tr>
+            <td>
+                Name:
+             </td>
+            <td>
+                <input type="text" name="Name" name="">
+            </td>
+        </tr>
+    
+
+        <tr>
+            <td>
+                 Number:
+            </td>
+            <td>
+                <input type="number" name="number" placeholder="897*******" size="10" >
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                 Email:
+            </td>
+            <td>
+                <input type="email" name="email" placeholder="Example1@**" >
+            </td>
+        </tr>
+        
+
+        <tr>
+            <td>
+                 Password:
+            </td>
+            <td>
+                <input type="password" name="password" placeholder="Password" >
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                 Gender:
+            </td>
+            <td>
+                <input type="radio" name="Male" value="Male"> Male
+                <input type="radio" name="Female" value="Female"> Female
+            </td>
+        </tr>
+        
+             
+        <tr>
+            <td>
+                 DOB:
+            </td>
+            <td>
+                <input type="date" name="Bday"> 
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                 City:
+            </td>
+            <td>
+                <select>
+                    <option>Select</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Nashik">Nashik</option>
+                    <option value="Jalgaon">Jalgaon</option>
+                </select>
+            </td>   
+       </tr>
+              
+       <tr>
+        <td>
+             State:
+        </td>
+        <td>
+            <select>
+                <option>Select</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Gujrat">Gujrat</option>
+                <option value="M.P">M.P</option>
+            </select>
+        </td>   
+   </tr>
+          
+              
+        <tr>
+            <td>
+                 Qualification:
+            </td>
+            <td>
+                <select>
+                    <option value="Select"></option>
+                    <option value="BE">BE</option>
+                    <option value="B-Tec">B-Tec</option>
+                    <option value="M-Tec">M-Tec</option>
+                </select>
+            </td>
+        </tr>
+        
+             
+        
+        <tr>
+            <td>
+                 Hobby:
+            </td>
+            <td>
+                <input type="checkbox" name="Hobby" value="Reading"> Reading
+                <input type="checkbox" name="Hobby" value="Singing"> Singing
+                <input type="checkbox" name="Hobby" value="playing"> playing 
+            </td>
+        </tr>
+        
+             
+       <tr>
+           <td>
+               Address:
+           </td> 
+           <td>
+               <textarea name="address" rows="7" cols="15" placeholder="Address"></textarea>   
+           </td>
+        </tr>
+        
+
+        <tr>
+            <td>
+                Resume:
+            </td>
+            <td>
+                <input type="file" name="img" multiple>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            </td>
+         </tr>
+         
+        </table> 
+        </form>
+</body>
+</html>
